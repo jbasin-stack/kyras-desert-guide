@@ -36,8 +36,14 @@ C:\Claude code projects\Kyras_Desert_guide\
 - [x] Task 7: Travel Tips Page (2026-02-06)
 - [x] Task 8: Trip Journal Feature (2026-02-06)
 - [ ] Task 9: Polish & Animations
-- [ ] Task 10: Git & Vercel Deployment
+- [x] Task 10: Git & Vercel Deployment (2026-02-06)
 - [ ] Task 11: Documentation
+
+## Deployment
+- GitHub Repository: https://github.com/jbasin-stack/kyras-desert-guide
+- Live Site: https://kyras-desert-guide.vercel.app
+- Automatic deployments configured: Every push to master triggers Vercel rebuild
+- Build verified successful: dist/ generated without errors
 
 ## Key Patterns
 - Routes defined in src/App.jsx using react-router-dom BrowserRouter
