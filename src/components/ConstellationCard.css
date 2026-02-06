@@ -6,6 +6,9 @@
   transition: all var(--transition-base);
   border: 2px solid var(--border-color);
   cursor: pointer;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  overflow: hidden;
 }
 
 .constellation-card:hover {
@@ -105,6 +108,27 @@
   line-height: 1;
 }
 
+/* Constellation Image Container */
+.constellation-image-container {
+  width: 100%;
+  max-width: 300px;
+  height: 200px;
+  margin: 0 auto var(--spacing-lg);
+  background: linear-gradient(135deg, #1a202c 0%, var(--night-sky) 50%, #2d3748 100%);
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.3), 0 0 20px rgba(212, 197, 226, 0.3);
+  border: 2px solid rgba(212, 197, 226, 0.4);
+}
+
+.constellation-svg {
+  width: 100%;
+  height: 100%;
+}
+
 /* Card Description */
 .card-description {
   margin-bottom: var(--spacing-md);
@@ -114,6 +138,8 @@
   color: var(--text-secondary);
   line-height: 1.6;
   margin: 0;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 /* Card Details (Expanded Content) */
@@ -157,6 +183,8 @@
   color: var(--text-secondary);
   line-height: 1.7;
   margin-bottom: var(--spacing-sm);
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 /* Key Stars List */
@@ -189,6 +217,8 @@
 .star-item p {
   margin-bottom: var(--spacing-xs);
   font-size: 0.95rem;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 .star-brightness {
@@ -215,6 +245,11 @@
 @media (max-width: 768px) {
   .constellation-card {
     padding: var(--spacing-md);
+  }
+
+  .constellation-image-container {
+    height: 180px;
+    max-width: 280px;
   }
 
   .card-header {
@@ -247,6 +282,11 @@
 }
 
 @media (max-width: 480px) {
+  .constellation-image-container {
+    height: 160px;
+    max-width: 100%;
+  }
+
   .constellation-name {
     font-size: 1.25rem;
   }
