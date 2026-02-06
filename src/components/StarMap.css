@@ -1,0 +1,92 @@
+.star-map {
+  width: 100%;
+  max-width: 300px;
+  margin: var(--spacing-lg) auto;
+  padding: var(--spacing-md);
+  background: linear-gradient(135deg, var(--night-sky) 0%, #1a1a2e 100%);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  border: 2px solid var(--lavender-twilight);
+}
+
+.star-map-svg {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: var(--radius-md);
+}
+
+/* Star animations */
+.star {
+  animation: twinkle 3s ease-in-out infinite;
+  animation-delay: calc(var(--star-index, 0) * 0.1s);
+}
+
+@keyframes twinkle {
+  0%, 100% {
+    opacity: 0.6;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+}
+
+.key-star {
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.star-glow {
+  animation: glow 2s ease-in-out infinite;
+}
+
+@keyframes glow {
+  0%, 100% {
+    opacity: 0.2;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.6;
+    transform: scale(1.1);
+  }
+}
+
+.constellation-line {
+  transition: opacity var(--transition-base);
+}
+
+.star-map:hover .constellation-line {
+  stroke: rgba(212, 197, 226, 0.8);
+  opacity: 1;
+}
+
+.star-map-caption {
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--sand-beige);
+  margin-top: var(--spacing-sm);
+  margin-bottom: 0;
+  font-style: italic;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .star-map {
+    max-width: 250px;
+    padding: var(--spacing-sm);
+  }
+
+  .star-map-caption {
+    font-size: 0.8rem;
+  }
+}

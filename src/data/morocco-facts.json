@@ -1,0 +1,144 @@
+{
+  "facts": [
+    {
+      "id": 1,
+      "category": "Moroccan Traditions",
+      "title": "The Three Glasses of Tea",
+      "content": "Moroccan mint tea is served in three rounds, each with symbolic meaning: the first glass is 'gentle like life', the second 'strong like love', and the third 'bitter like death'. The tea ceremony is a sacred ritual of hospitality that can last for hours.",
+      "icon": "☕"
+    },
+    {
+      "id": 2,
+      "category": "Moroccan Traditions",
+      "title": "The Art of Tagine Cooking",
+      "content": "The iconic cone-shaped tagine pot creates a unique cooking environment where steam rises, condenses on the cool lid, and falls back onto the food, creating incredibly tender and flavorful dishes. This clay pot has been used for centuries in Moroccan cuisine.",
+      "icon": "🍲"
+    },
+    {
+      "id": 3,
+      "category": "Moroccan Traditions",
+      "title": "Hammam Ritual Bathing",
+      "content": "The traditional Moroccan hammam is more than just a bath - it's a centuries-old cleansing ritual involving steam, exfoliation with a kessa glove, and black soap made from olives. It's a social experience where generations gather and community bonds are strengthened.",
+      "icon": "🛁"
+    },
+    {
+      "id": 4,
+      "category": "Moroccan Traditions",
+      "title": "Riad Architecture",
+      "content": "Traditional Moroccan riads are houses built around a central courtyard garden, often with a fountain. The name comes from the Arabic word for 'garden'. These architectural marvels keep homes cool in summer and create peaceful sanctuaries from bustling medina streets.",
+      "icon": "🏛️"
+    },
+    {
+      "id": 5,
+      "category": "Moroccan Traditions",
+      "title": "Liquid Gold: Argan Oil",
+      "content": "Argan oil, produced from trees found only in Morocco, is so valuable it's called 'liquid gold'. Berber women have been making it by hand for centuries. The oil-producing argan tree takes 50 years to mature and goats famously climb them to eat the fruit!",
+      "icon": "🌰"
+    },
+    {
+      "id": 6,
+      "category": "Berber Culture",
+      "title": "The Indigenous Amazigh People",
+      "content": "The Berber people, who prefer to be called Amazigh (meaning 'free people'), are the indigenous inhabitants of North Africa, with a history spanning over 4,000 years. They have preserved their unique language, customs, and traditions despite centuries of outside influence.",
+      "icon": "👥"
+    },
+    {
+      "id": 7,
+      "category": "Berber Culture",
+      "title": "Tamazight: A Living Ancient Language",
+      "content": "Tamazight, the Berber language, is actually a family of closely related languages with its own unique script called Tifinagh. In 2011, Tamazight became an official language of Morocco alongside Arabic. The script's geometric symbols date back thousands of years.",
+      "icon": "📝"
+    },
+    {
+      "id": 8,
+      "category": "Berber Culture",
+      "title": "The Heartbeat of the Desert: Bendir Drum",
+      "content": "The bendir is a traditional frame drum central to Berber music. Made with goat skin stretched over a wooden frame, it produces deep, resonant beats that accompany storytelling and celebrations. Desert nights often echo with its rhythmic pulse.",
+      "icon": "🥁"
+    },
+    {
+      "id": 9,
+      "category": "Berber Culture",
+      "title": "Nomadic Heritage of the Blue People",
+      "content": "Some Berber tribes, like the Tuareg, lived as nomads for centuries, expertly navigating the Sahara. They're called 'Blue People' because indigo dye from their traditional robes would stain their skin. Their navigation skills using stars and dunes are legendary.",
+      "icon": "🧭"
+    },
+    {
+      "id": 10,
+      "category": "Berber Culture",
+      "title": "Henna: Art with Meaning",
+      "content": "Henna (mehndi) has been used in Berber culture for over 5,000 years. The intricate designs are not just decorative - different patterns carry meanings of protection, luck, and joy. Brides wear elaborate henna designs that can take hours to apply.",
+      "icon": "✋"
+    },
+    {
+      "id": 11,
+      "category": "Berber Culture",
+      "title": "Handwoven Stories: Berber Carpets",
+      "content": "Traditional Berber carpets are woven by women using ancient techniques passed down through generations. Each carpet tells a story through its symbols and patterns - diamonds represent femininity, triangles symbolize mountains, and specific colors ward off evil spirits.",
+      "icon": "🧶"
+    },
+    {
+      "id": 12,
+      "category": "Sahara Desert Geography",
+      "title": "A Desert the Size of the USA",
+      "content": "The Sahara Desert spans over 9 million square kilometers (3.5 million square miles), making it roughly the same size as the United States! It stretches across 11 countries and is still slowly expanding. Only 20% of the Sahara is actually covered in sand - the rest is gravel plains and mountains.",
+      "icon": "🌍"
+    },
+    {
+      "id": 13,
+      "category": "Sahara Desert Geography",
+      "title": "Temperature Extremes",
+      "content": "The Sahara experiences some of Earth's most dramatic temperature swings. Daytime temperatures can soar above 50°C (122°F), but at night, especially in winter, temperatures can drop to near freezing. This 40+ degree difference can happen in a single 24-hour period!",
+      "icon": "🌡️"
+    },
+    {
+      "id": 14,
+      "category": "Sahara Desert Geography",
+      "title": "Singing Dunes and Sand Mountains",
+      "content": "The Sahara features different types of sand dunes: star dunes can reach 300 meters high, crescent barchans migrate with the wind, and linear seif dunes stretch for hundreds of kilometers. Some dunes 'sing' - creating eerie humming sounds when sand avalanches down their slopes.",
+      "icon": "🏔️"
+    },
+    {
+      "id": 15,
+      "category": "Sahara Desert Geography",
+      "title": "Oasis: Life in the Desert",
+      "content": "Oases are formed where underground water reaches the surface, creating green havens in the desert. These vital ecosystems support date palms, crops, and entire communities. Ancient trade routes were planned around these precious water sources.",
+      "icon": "🌴"
+    },
+    {
+      "id": 16,
+      "category": "Desert Wildlife",
+      "title": "Fennec Fox: Desert's Cutest Survivor",
+      "content": "The fennec fox, with its enormous ears (6 inches long!), is perfectly adapted to the Sahara. Those oversized ears aren't just adorable - they dissipate heat and help detect prey underground. These tiny foxes can survive without drinking water, getting moisture from their food.",
+      "icon": "🦊"
+    },
+    {
+      "id": 17,
+      "category": "Desert Wildlife",
+      "title": "Camels: Ships of the Desert",
+      "content": "Dromedary camels (one hump) are the ultimate desert survivors. They can go 2 weeks without water and lose up to 25% of their body weight through dehydration without ill effects. Their humps store fat, not water! When they do drink, they can gulp down 40 gallons in 13 minutes.",
+      "icon": "🐫"
+    },
+    {
+      "id": 18,
+      "category": "Desert Wildlife",
+      "title": "Scarab Beetles: Ancient Navigators",
+      "content": "Sacred to ancient Egyptians, scarab beetles (dung beetles) have an amazing ability - they navigate using the Milky Way! These beetles are the only known insect to use the galaxy for orientation as they roll their dung balls across the desert in perfectly straight lines.",
+      "icon": "🪲"
+    },
+    {
+      "id": 19,
+      "category": "Desert Wildlife",
+      "title": "Jerboa: The Desert's Kangaroo",
+      "content": "The jerboa is a tiny desert rodent with incredibly long hind legs that allow it to leap up to 10 feet in a single bound - that's more than 10 times its body length! It never needs to drink water, getting all moisture from seeds, and can survive in temperatures from -20°C to 50°C.",
+      "icon": "🦘"
+    },
+    {
+      "id": 20,
+      "category": "Historical Facts",
+      "title": "Salt Worth Its Weight in Gold",
+      "content": "For centuries, salt was traded across the Sahara along ancient caravan routes. It was so valuable that salt was literally traded pound-for-pound for gold! Traders would spend months crossing the desert, with caravans sometimes numbering over 10,000 camels.",
+      "icon": "🧂"
+    }
+  ]
+}

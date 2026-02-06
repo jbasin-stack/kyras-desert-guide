@@ -1,0 +1,217 @@
+{
+  "constellations": [
+    {
+      "id": "orion",
+      "name": "Orion",
+      "arabicName": "الجبار (Al Jabbar - The Giant)",
+      "description": "One of the most recognizable and spectacular constellations in the night sky, depicting a mighty hunter with a distinctive belt of three bright stars. Orion dominates the February evening sky in Morocco, making it impossible to miss.",
+      "mythology": "In Greek mythology, Orion was a legendary hunter of enormous strength and beauty. The gods placed him among the stars after his death. Different cultures see different figures: ancient Egyptians associated the constellation with Osiris, god of the afterlife, while Arab astronomers saw it as a giant warrior. Berber traditions often refer to it as a celestial shepherd watching over the desert.",
+      "howToLocate": "Look toward the southern sky in the evening (around 8-10 PM). Find three bright stars perfectly aligned in a short, straight row—this is Orion's Belt, one of the most famous star patterns in the sky. Once you've found the belt, locate two bright stars above it (forming the shoulders) and two below (forming the feet). The reddish star on the upper left is Betelgeuse, and the brilliant blue-white star on the lower right is Rigel.",
+      "bestViewingTime": "Evening to midnight, February through early March. Orion is highest in the sky around 9 PM in February, making it perfect for desert stargazing after dinner.",
+      "visibility": "Very bright and easy to spot—perfect for beginners! One of the most prominent constellations visible from anywhere on Earth.",
+      "keyStars": [
+        {
+          "name": "Betelgeuse",
+          "description": "A massive red supergiant forming Orion's right shoulder (left side when looking at it). This star is so large that if placed at the center of our solar system, it would extend past Mars!",
+          "brightness": "Usually the 10th brightest star, though it varies. Distinctly orange-red in color."
+        },
+        {
+          "name": "Rigel",
+          "description": "A brilliant blue-white supergiant marking Orion's left foot. Despite being designated 'Beta Orionis,' it's actually brighter than Betelgeuse most of the time.",
+          "brightness": "The 7th brightest star in the night sky, shining with a stunning blue-white light."
+        },
+        {
+          "name": "Alnitak, Alnilam, Mintaka",
+          "description": "The three stars forming Orion's Belt, aligned almost perfectly. They're roughly equidistant and point toward other important stars.",
+          "brightness": "All second-magnitude stars, clearly visible even from light-polluted areas."
+        },
+        {
+          "name": "Orion Nebula",
+          "description": "Below the belt, a fuzzy patch visible to the naked eye—this is actually a stellar nursery where new stars are being born, 1,344 light-years away!",
+          "brightness": "Visible as a hazy star in Orion's sword, spectacular through binoculars."
+        }
+      ],
+      "funFact": "Orion's Belt points directly toward Sirius, the brightest star in the night sky (in the constellation Canis Major). If you extend a line through the belt downward and to the left, you can't miss Sirius blazing like a diamond! The belt also points upward to Aldebaran in Taurus.",
+      "culturalSignificance": "Orion has been recognized by virtually every ancient civilization. The ancient Egyptians aligned the three pyramids of Giza to match Orion's Belt. In Moroccan and Berber culture, the constellation marks the winter season and the time for storytelling around desert campfires. The constellation appears on flags, in poetry, and in navigation traditions across North Africa."
+    },
+    {
+      "id": "canis-major",
+      "name": "Canis Major",
+      "arabicName": "الكلب الأكبر (Al Kalb al Akbar - The Greater Dog)",
+      "description": "The Great Dog constellation, home to Sirius, the brightest star in the entire night sky. This constellation represents one of Orion's faithful hunting dogs, following the hunter across the heavens. In the clear desert air of the Sahara, Sirius shines with breathtaking brilliance.",
+      "mythology": "In Greek legend, Canis Major represents Laelaps, a dog so swift it could catch anything. The dog was placed in the sky as Orion's hunting companion. Ancient Egyptians held Sirius in special reverence—its rising just before the sun (called the 'heliacal rising') announced the annual flooding of the Nile, crucial for agriculture. The star was associated with the goddess Isis.",
+      "howToLocate": "First, find Orion's Belt (the three stars in a row). Draw an imaginary line through the belt going down and to the left (southeast). The incredibly bright star you'll hit is Sirius—you can't miss it! It's so bright it often appears to twinkle with multiple colors (blue, white, even rainbow flashes) due to atmospheric effects. The rest of Canis Major forms a dog-like shape around Sirius.",
+      "bestViewingTime": "Best viewed in the evening from January through March. By 9 PM in February, Canis Major is well-placed in the southern sky. Sirius is so bright it's visible even when the moon is out.",
+      "visibility": "Very easy to locate—Sirius is unmistakable! The brightest star you see in the February night sky is almost certainly Sirius.",
+      "keyStars": [
+        {
+          "name": "Sirius (The Dog Star)",
+          "description": "The crown jewel of the night sky! Sirius is actually a binary star system with a white dwarf companion. Its name comes from the Greek word for 'scorching' or 'glowing.'",
+          "brightness": "The brightest star in the night sky, magnitude -1.46. Twice as bright as any other star! Appears brilliant white with hints of blue and seems to flash different colors near the horizon."
+        },
+        {
+          "name": "Adhara",
+          "description": "The second brightest star in Canis Major, forming part of the dog's hind leg. A beautiful blue giant star.",
+          "brightness": "Second magnitude, making it easily visible. One of the brightest known ultraviolet sources in the sky."
+        },
+        {
+          "name": "Wezen",
+          "description": "A yellow-white supergiant marking the dog's hind quarters. An enormous star despite appearing modest.",
+          "brightness": "A bright second-magnitude star, clearly visible in dark skies."
+        }
+      ],
+      "funFact": "Sirius is only 8.6 light-years away—one of our closest stellar neighbors! The phrase 'dog days of summer' comes from Sirius rising with the sun during July and August in ancient times. In the clear, dry Sahara air, Sirius can be so bright that it has been reported to cast faint shadows!",
+      "culturalSignificance": "Throughout North Africa and the Middle East, Sirius has been a crucial navigation star for desert travelers and sailors alike. Berber nomads used it as a seasonal marker. The star features prominently in Islamic astronomy and was used to determine prayer times and direction. In Morocco, its appearance in the evening sky signals the heart of winter."
+    },
+    {
+      "id": "ursa-major",
+      "name": "Ursa Major",
+      "arabicName": "الدب الأكبر (Al Dubb al Akbar - The Great Bear)",
+      "description": "The Great Bear is one of the most famous constellations, containing the Big Dipper (or Plough), one of the most recognizable star patterns in the sky. While the full bear constellation is large, the Big Dipper's seven bright stars make it easy to identify and use for navigation.",
+      "mythology": "Greek mythology tells of Callisto, a beautiful maiden transformed into a bear by the jealous goddess Hera, and placed in the sky by Zeus. Native Americans saw the four stars of the bowl as a bear, with the three handle stars being hunters chasing it. Arab astronomers saw the dipper shape as a funeral bier (coffin) followed by mourners. Different cultures have remarkably different interpretations of the same star pattern.",
+      "howToLocate": "Look to the northern sky in the evening. The Big Dipper looks like a large saucepan or ladle with a curved handle. In February from Morocco (31°N), it appears in the northeastern sky, tilted so the bowl is upward. It circles around the North Star and never sets from this latitude—it's always visible on clear nights! The two stars at the outer edge of the bowl (opposite the handle) are called 'pointer stars' because they point toward Polaris, the North Star.",
+      "bestViewingTime": "Visible year-round from Morocco, but in February it's well-placed in the northeastern sky during evening hours. Best viewing is after 8 PM when it's risen higher.",
+      "visibility": "Very easy to spot! The Big Dipper is one of the first star patterns children learn to recognize. Seven bright stars in an unmistakable shape.",
+      "keyStars": [
+        {
+          "name": "Dubhe and Merak (The Pointer Stars)",
+          "description": "The two stars forming the outer edge of the Big Dipper's bowl. Draw a line through them upward and you'll find Polaris, the North Star, about five times the distance between them.",
+          "brightness": "Both are bright second-magnitude stars, easily visible."
+        },
+        {
+          "name": "Mizar and Alcor",
+          "description": "The second star in the handle is actually a double star! Mizar and Alcor appear very close together. Ancient Arab astronomers used this pair as an eye test—if you could see them as two separate stars, your vision was considered excellent.",
+          "brightness": "Mizar is bright (magnitude 2.2); Alcor is fainter (magnitude 4). They're separated by about 12 arc-minutes—just discernible to sharp eyes."
+        },
+        {
+          "name": "Alkaid",
+          "description": "The star at the end of the handle, meaning 'the leader' in Arabic. It's the only Big Dipper star that's not part of the Ursa Major Moving Group.",
+          "brightness": "A bright blue-white star, magnitude 1.9."
+        }
+      ],
+      "funFact": "The Big Dipper isn't actually a constellation—it's an asterism (a recognizable pattern) within the larger Ursa Major constellation! Five of the seven stars in the Big Dipper are actually traveling through space together as part of the Ursa Major Moving Group, born from the same stellar nursery. Alkaid and Dubhe are traveling in different directions and will eventually distort the familiar shape over thousands of years.",
+      "culturalSignificance": "Used for navigation by desert travelers for millennia—the pointer stars always show the way to Polaris and true north. In Islamic astronomy, the constellation was well-documented and used for navigation. Berber and Arab navigators crossing the Sahara relied on it as a compass. In Moroccan tradition, it's associated with guidance and finding one's way home."
+    },
+    {
+      "id": "cassiopeia",
+      "name": "Cassiopeia",
+      "arabicName": "ذات الكرسي (Dhat al Kursi - The Lady in the Chair)",
+      "description": "A distinctive W-shaped (or M-shaped, depending on the time of night) constellation that looks like a celestial throne. Cassiopeia is circumpolar from Morocco, meaning it never sets below the horizon and can be seen year-round, rotating around the North Star throughout the night.",
+      "mythology": "In Greek mythology, Cassiopeia was a vain queen of Ethiopia who boasted that she was more beautiful than the sea nymphs. As punishment, the god Poseidon had her placed in the sky, condemned to circle the celestial pole forever, spending half the time hanging upside down in her throne. Arab astronomers saw it as a kneeling camel or a woman's hand stained with henna.",
+      "howToLocate": "Find the Big Dipper first (in the northeast in February evenings). Cassiopeia is on the opposite side of Polaris (the North Star) from the Big Dipper. Look for five bright stars forming a distinctive W or M shape. In February around 9 PM, it appears in the northwestern sky, shaped like a W. The constellation rotates around Polaris, so its orientation changes throughout the night—if you see an M instead of a W, you're looking at the same stars from a different time perspective!",
+      "bestViewingTime": "Visible all year from Morocco, but particularly well-placed in the evening sky from October through February. In February, it's prominent in the northern sky after sunset.",
+      "visibility": "Easy to spot once you know where to look. The W or M shape is very distinctive and the stars are reasonably bright.",
+      "keyStars": [
+        {
+          "name": "Schedar (Alpha Cassiopeiae)",
+          "description": "The rightmost star in the W (or leftmost in M), marking the queen's breast. An orange giant star. Its name comes from Arabic 'Al Sadr' meaning 'the breast.'",
+          "brightness": "Magnitude 2.2, the brightest star in Cassiopeia, with a lovely orange hue."
+        },
+        {
+          "name": "Caph (Beta Cassiopeiae)",
+          "description": "The leftmost star in the W, part of the queen's throne. A white giant that's actually a variable star, changing slightly in brightness.",
+          "brightness": "Magnitude 2.3, nearly as bright as Schedar."
+        },
+        {
+          "name": "Navi (Gamma Cassiopeiae)",
+          "description": "The middle star of the W, at the peak. This is a very hot, rapidly rotating star that occasionally ejects material into space. Nicknamed 'Navi' by astronaut Gus Grissom (his middle name Ivan spelled backwards).",
+          "brightness": "Usually magnitude 2.2, but varies irregularly from 1.6 to 3.0."
+        }
+      ],
+      "funFact": "Cassiopeia contains the remnant of a supernova that exploded around 1680—though it was never recorded by astronomers at the time! The radio source Cassiopeia A is one of the brightest radio sources in the sky and is the expanding remains of that stellar explosion. The constellation is also home to several beautiful star clusters visible through binoculars.",
+      "culturalSignificance": "In Islamic astronomy, Cassiopeia was known as 'the Lady in the Chair' and was used for timekeeping and navigation. Desert travelers used its rotation around the North Star as a celestial clock. The constellation appears in Arab astronomical manuscripts dating back over a thousand years and was used by Saharan caravans to navigate at night."
+    },
+    {
+      "id": "taurus",
+      "name": "Taurus",
+      "arabicName": "الثور (Al Thawr - The Bull)",
+      "description": "The Bull is a large, ancient constellation containing two famous star clusters: the Pleiades (Seven Sisters) and the Hyades. The bright red star Aldebaran marks the bull's fiery eye. In February, Taurus is prominent in the western evening sky, making it perfect for early evening viewing.",
+      "mythology": "In Greek mythology, Taurus represents Zeus who transformed himself into a magnificent white bull to seduce Europa, a Phoenician princess. The constellation shows only the front half of the bull emerging from the sea. Ancient civilizations from Mesopotamia to Egypt to Spain have associated this constellation with a bull for over 5,000 years—it's one of the oldest recognized constellations. In some Arab traditions, it represents a herd of camels.",
+      "howToLocate": "Find Orion's Belt first (three stars in a row). Extend a line through the belt upward and to the right (northwest). The first bright star you encounter is Aldebaran, the bull's red eye—it has a distinct orange-red color. Beyond Aldebaran, you'll see a small cluster of stars resembling a tiny dipper—this is the Hyades cluster forming the bull's face. Further beyond (about three fist-widths at arm's length) is a tight group of tiny stars called the Pleiades or Seven Sisters.",
+      "bestViewingTime": "Best in the evening from November through March. In February, Taurus is high in the western sky after sunset, setting around midnight. Catch it early in the evening for the best view.",
+      "visibility": "Easy to moderate. Aldebaran is very bright and obvious, but seeing the full bull shape requires darker skies. The Pleiades cluster is visible even from cities.",
+      "keyStars": [
+        {
+          "name": "Aldebaran",
+          "description": "The bull's fiery red eye, an orange giant star 65 light-years away. Its name comes from Arabic 'Al Dabaran' meaning 'the Follower' because it appears to follow the Pleiades across the sky.",
+          "brightness": "The 14th brightest star in the sky, magnitude 0.85. Distinctly orange-red in color, contrasting beautifully with Orion's blue stars."
+        },
+        {
+          "name": "Pleiades (M45) - The Seven Sisters",
+          "description": "A spectacular open star cluster, one of the closest to Earth at 444 light-years. Also called 'Al Thuraya' in Arabic. Most people can see 6-7 stars with the naked eye, but the cluster contains over 1,000 stars!",
+          "brightness": "The brightest members range from magnitude 2.9 to 5.4. The cluster looks like a tiny misty dipper."
+        },
+        {
+          "name": "The Hyades Cluster",
+          "description": "A large V-shaped cluster of stars forming the bull's face. This is the closest star cluster to Earth at 153 light-years. Aldebaran appears to be part of the cluster but is actually in the foreground.",
+          "brightness": "Several 3rd and 4th magnitude stars forming a distinct V pattern."
+        },
+        {
+          "name": "El Nath (Beta Tauri)",
+          "description": "Marking one of the bull's horns, a bright blue-white star. Its name means 'the butting one' in Arabic.",
+          "brightness": "Magnitude 1.7, a clearly visible bright star."
+        }
+      ],
+      "funFact": "The Pleiades cluster is mentioned in ancient texts from many cultures—Homer's Odyssey, the Bible, and even ancient Chinese records! Despite being called the 'Seven Sisters,' most people can only see 6 stars with the naked eye. Under perfect desert conditions in the Sahara, some observers report seeing up to 14 stars! The cluster is only about 100 million years old—very young in cosmic terms.",
+      "culturalSignificance": "Taurus is one of the oldest constellations, recognized by Bronze Age cultures. The Pleiades are mentioned in the Quran and held special significance in Islamic astronomy. Throughout Morocco and the Sahara, the Pleiades were used as a seasonal calendar—their appearance marked important agricultural and nomadic cycles. Berber cultures have traditional stories about the Seven Sisters, often associated with beauty and sisterhood."
+    },
+    {
+      "id": "gemini",
+      "name": "Gemini",
+      "arabicName": "الجوزاء (Al Jawza - The Twins)",
+      "description": "The Twins constellation features two bright stars, Castor and Pollux, representing the heads of the twin brothers. The constellation extends in two roughly parallel lines of stars representing their bodies. In February, Gemini is high in the sky during evening hours, making it an excellent target for stargazing.",
+      "mythology": "In Greek mythology, Castor and Pollux were twin brothers—one mortal and one immortal—born to Queen Leda. They were inseparable companions and great heroes who sailed with Jason and the Argonauts. When mortal Castor was killed, immortal Pollux begged Zeus to let him share his immortality with his brother. Zeus placed them both in the sky where they could be together forever. In Arab astronomy, the constellation was sometimes seen as two peacocks.",
+      "howToLocate": "Start by finding Orion, then look to the upper left (northeast) of Orion. You'll see two bright stars fairly close together, similar in brightness—these are Castor and Pollux, marking the heads of the twins. In February around 9 PM, Gemini is nearly overhead or high in the eastern sky. Pollux is slightly brighter and has a subtle golden color, while Castor is white. The twin lines of fainter stars extend from these two bright stars toward Orion.",
+      "bestViewingTime": "Best viewing from December through April. In February, Gemini is perfectly placed high in the evening sky—nearly overhead around 9-10 PM, making it comfortable to view without craning your neck.",
+      "visibility": "Easy. The two bright stars Castor and Pollux are unmistakable once you know where to look. They're similar in brightness and positioned like actual twins in the sky.",
+      "keyStars": [
+        {
+          "name": "Pollux (Beta Geminorum)",
+          "description": "Despite the 'Beta' designation, Pollux is actually the brighter twin! It's an orange giant star and has a confirmed planet orbiting it. The name is from Greek, but in Arabic astronomy it's known as 'Al Ras al Tau'am al Mu'akhar' (the head of the second twin).",
+          "brightness": "The 17th brightest star in the sky, magnitude 1.14. Noticeably orange-gold in color."
+        },
+        {
+          "name": "Castor (Alpha Geminorum)",
+          "description": "A complex multiple star system—what appears as a single star is actually six stars orbiting each other! Through a telescope, it can be separated into three pairs. Appears white or bluish-white.",
+          "brightness": "Magnitude 1.58, slightly fainter than Pollux. Brilliant white color."
+        },
+        {
+          "name": "Alhena (Gamma Geminorum)",
+          "description": "Marking one of the feet of the twins, a bright white star. Its name comes from Arabic 'Al Han'ah' meaning 'the brand' (as in a mark on a camel's neck).",
+          "brightness": "Magnitude 1.9, clearly visible and marking the southern extent of the constellation."
+        }
+      ],
+      "funFact": "The Gemini meteor shower, one of the best meteor showers of the year, appears to radiate from this constellation every December! Castor is actually a six-star system—three pairs of binary stars all gravitationally bound together. The constellation also marks the position of Pluto's discovery in 1930—astronomer Clyde Tombaugh found the dwarf planet near the western edge of Gemini.",
+      "culturalSignificance": "In Islamic astronomy, Gemini was significant for its position along the zodiac and the ecliptic (the Sun's path). The constellation was used in astrological calculations and calendar systems throughout the Islamic world. Desert travelers recognized it as a winter constellation. The twins have appeared in Middle Eastern star lore for thousands of years, with various interpretations across different cultures."
+    },
+    {
+      "id": "leo",
+      "name": "Leo",
+      "arabicName": "الأسد (Al Asad - The Lion)",
+      "description": "The Lion is a large, majestic constellation that actually looks like its namesake! A distinctive pattern of stars forms a backward question mark (called 'the Sickle'), representing the lion's head and mane, while a triangle of stars to the left forms the hindquarters. In February, Leo rises in the eastern sky during the evening and dominates the late-night sky.",
+      "mythology": "In Greek mythology, Leo represents the Nemean Lion, a fearsome beast with an impenetrable golden coat. Slaying this lion was the first of Hercules' twelve labors. The hero strangled the invulnerable lion with his bare hands and wore its skin as armor. Zeus placed the lion among the stars to honor the great beast. Ancient Mesopotamian, Egyptian, and Persian cultures also associated this constellation with a lion—it's one of the few constellations that truly resembles what it represents!",
+      "howToLocate": "In February, look to the east around 9-10 PM. Leo is rising and will be higher as the night progresses. Find the backward question mark pattern called 'the Sickle'—the bright star at the bottom of the question mark is Regulus, the lion's heart. This pattern forms the lion's head and impressive mane. To the left (east) of the Sickle, look for a triangle of stars—this is the lion's hindquarters, with the star Denebola at the tail. By midnight, Leo is high in the sky and perfectly positioned for viewing.",
+      "bestViewingTime": "Best viewing from February through June. In February, Leo rises in the east during evening hours and is highest around midnight to 2 AM. Perfect for late-night stargazing! By March, it's visible earlier in the evening.",
+      "visibility": "Easy to moderate. The Sickle pattern is distinctive once you know what to look for, and Regulus is bright and easy to spot. The full lion shape requires darker skies but is very satisfying to trace.",
+      "keyStars": [
+        {
+          "name": "Regulus (Alpha Leonis)",
+          "description": "The 'heart of the lion,' one of the four Royal Stars of Persian astronomy. Its name means 'little king' in Latin. A bright blue-white star that's actually a multiple star system. It sits almost exactly on the ecliptic—the Sun's path—so planets often pass very close to it.",
+          "brightness": "The 21st brightest star in the sky, magnitude 1.35. Brilliant white-blue, easily visible even with moonlight."
+        },
+        {
+          "name": "Denebola (Beta Leonis)",
+          "description": "Marking the lion's tail, from Arabic 'Al Dhanab al Asad' meaning 'the lion's tail.' A fast-rotating white star with a debris disk around it—possible evidence of a planetary system forming.",
+          "brightness": "Magnitude 2.1, a clearly visible bright star at the eastern end of the constellation."
+        },
+        {
+          "name": "Algieba (Gamma Leonis)",
+          "description": "Located in the lion's mane (the Sickle), this is a beautiful binary star system. The two orange giant stars orbit each other. The name comes from Arabic 'Al Jabhah' meaning 'the forehead.'",
+          "brightness": "Magnitude 2.0, appears as a single golden star to the naked eye but splits into two in a telescope."
+        }
+      ],
+      "funFact": "Leo is home to many galaxies! The area around Leo's hindquarters contains over 70 galaxies in what's called the Leo Galaxy Cluster. While these galaxies require a large telescope, it's amazing to know you're looking at a region containing so many distant island universes! Every November, the Leonid meteor shower radiates from Leo—and every 33 years or so, it produces spectacular meteor storms with thousands of meteors per hour!",
+      "culturalSignificance": "Leo has been recognized as a lion since ancient Mesopotamian times—over 4,000 years ago! Ancient Egyptians associated the constellation with the annual flooding of the Nile, as the Sun passed through Leo during the flood season. In Islamic astronomy, Leo was one of the zodiacal constellations important for astrological and calendrical calculations. Regulus, the heart of the lion, was considered one of the four Royal Stars by Persian astronomers, marking one of the four quarters of the heavens. The constellation features prominently in Arab star catalogs and celestial globes."
+    }
+  ]
+}

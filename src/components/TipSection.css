@@ -1,0 +1,213 @@
+.tip-section {
+  background: white;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  margin-bottom: var(--spacing-lg);
+  overflow: hidden;
+  transition: box-shadow var(--transition-base);
+}
+
+.tip-section:hover {
+  box-shadow: var(--shadow-lg);
+}
+
+/* Header/Button */
+.tip-section-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--spacing-lg);
+  background: linear-gradient(
+    135deg,
+    var(--sand-beige) 0%,
+    rgba(245, 230, 211, 0.5) 100%
+  );
+  border: none;
+  cursor: pointer;
+  transition: all var(--transition-base);
+  text-align: left;
+}
+
+.tip-section-header:hover {
+  background: linear-gradient(
+    135deg,
+    var(--dusty-rose) 0%,
+    rgba(232, 180, 184, 0.5) 100%
+  );
+}
+
+.tip-section-header:focus-visible {
+  outline: 2px solid var(--dusty-rose);
+  outline-offset: 2px;
+}
+
+.tip-section-title {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+}
+
+.tip-icon {
+  font-size: 2rem;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.tip-section-title h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.tip-chevron {
+  font-size: 1.5rem;
+  color: var(--night-sky);
+  transition: transform var(--transition-base);
+  display: flex;
+  align-items: center;
+}
+
+/* Content Area */
+.tip-section-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height var(--transition-slow) ease-in-out;
+}
+
+.tip-section-content.open {
+  max-height: 2000px;
+}
+
+.tip-section-content.closed {
+  max-height: 0;
+}
+
+.tip-section-inner {
+  padding: var(--spacing-xl);
+  color: var(--text-primary);
+}
+
+/* Content Styling */
+.tip-section-inner h3 {
+  font-size: 1.25rem;
+  color: var(--night-sky);
+  margin-top: var(--spacing-lg);
+  margin-bottom: var(--spacing-md);
+  font-weight: 600;
+}
+
+.tip-section-inner h3:first-child {
+  margin-top: 0;
+}
+
+.tip-section-inner p {
+  margin-bottom: var(--spacing-md);
+  line-height: 1.7;
+}
+
+.tip-section-inner ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: var(--spacing-lg);
+}
+
+.tip-section-inner ul li {
+  position: relative;
+  padding-left: var(--spacing-xl);
+  margin-bottom: var(--spacing-sm);
+  line-height: 1.7;
+}
+
+.tip-section-inner ul li::before {
+  content: '•';
+  position: absolute;
+  left: var(--spacing-md);
+  color: var(--dusty-rose);
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.tip-section-inner strong {
+  color: var(--night-sky);
+  font-weight: 600;
+}
+
+.tip-section-inner em {
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+/* Phrase Box for Cultural Phrases */
+.phrase-box {
+  background: var(--lavender-twilight);
+  padding: var(--spacing-md) var(--spacing-lg);
+  border-radius: var(--radius-md);
+  margin-bottom: var(--spacing-md);
+  border-left: 4px solid var(--night-sky);
+}
+
+.phrase-box strong {
+  display: block;
+  font-size: 1.1rem;
+  margin-bottom: var(--spacing-xs);
+}
+
+.phrase-box em {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .tip-section-header {
+    padding: var(--spacing-md);
+  }
+
+  .tip-section-title {
+    gap: var(--spacing-sm);
+  }
+
+  .tip-icon {
+    font-size: 1.75rem;
+  }
+
+  .tip-section-title h2 {
+    font-size: 1.25rem;
+  }
+
+  .tip-chevron {
+    font-size: 1.25rem;
+  }
+
+  .tip-section-inner {
+    padding: var(--spacing-lg);
+  }
+
+  .tip-section-inner h3 {
+    font-size: 1.125rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .tip-section-header {
+    padding: var(--spacing-sm) var(--spacing-md);
+  }
+
+  .tip-icon {
+    font-size: 1.5rem;
+  }
+
+  .tip-section-title h2 {
+    font-size: 1.125rem;
+  }
+
+  .tip-section-inner {
+    padding: var(--spacing-md);
+  }
+
+  .tip-section-inner ul li {
+    padding-left: var(--spacing-lg);
+  }
+}

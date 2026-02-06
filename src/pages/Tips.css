@@ -1,0 +1,82 @@
+/* Tips Page Styles */
+.tips-page {
+  min-height: calc(100vh - 120px);
+  padding: var(--spacing-xl) 0;
+}
+
+.tips-header {
+  text-align: center;
+  margin-bottom: var(--spacing-2xl);
+  padding: var(--spacing-xl);
+  background: linear-gradient(135deg, var(--sage-green), var(--warm-terracotta));
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+}
+
+.tips-header h1 {
+  color: white;
+  margin-bottom: var(--spacing-sm);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tips-intro {
+  color: rgba(255, 255, 255, 0.95);
+  font-size: 1.125rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.tips-sections {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+  margin-bottom: var(--spacing-xl);
+}
+
+.phrase-box {
+  background: var(--sand-beige);
+  padding: var(--spacing-md);
+  border-radius: var(--radius-md);
+  margin-bottom: var(--spacing-md);
+  border-left: 4px solid var(--dusty-rose);
+}
+
+.phrase-box strong {
+  display: block;
+  color: var(--night-sky);
+  margin-bottom: var(--spacing-xs);
+  font-size: 1.1rem;
+}
+
+.phrase-box em {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+}
+
+.tips-footer {
+  text-align: center;
+  padding: var(--spacing-xl);
+  background: var(--sand-beige);
+  border-radius: var(--radius-lg);
+  margin-top: var(--spacing-2xl);
+}
+
+.tips-footer p {
+  color: var(--text-secondary);
+  font-size: 1.125rem;
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .tips-page {
+    padding: var(--spacing-lg) 0;
+  }
+
+  .tips-header {
+    padding: var(--spacing-lg);
+  }
+
+  .tips-intro {
+    font-size: 1rem;
+  }
+}

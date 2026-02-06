@@ -1,0 +1,270 @@
+/* Journal Entry Component Styles */
+.journal-entry {
+  background: white;
+  padding: var(--spacing-lg);
+  border-radius: var(--radius-lg);
+  border: 2px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-base);
+}
+
+.journal-entry:hover {
+  box-shadow: var(--shadow-md);
+  border-color: var(--lavender-twilight);
+}
+
+.journal-entry.editing {
+  border-color: var(--dusty-rose);
+  box-shadow: var(--shadow-lg);
+}
+
+/* Entry Header */
+.entry-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: var(--spacing-md);
+  padding-bottom: var(--spacing-sm);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.entry-meta {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+  flex-wrap: wrap;
+}
+
+.entry-timestamp {
+  color: var(--text-muted);
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.entry-mood {
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+/* Entry Actions */
+.entry-actions {
+  display: flex;
+  gap: var(--spacing-sm);
+}
+
+.edit-button,
+.delete-button {
+  width: 36px;
+  height: 36px;
+  background: transparent;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  font-size: 1.125rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  transition: all var(--transition-fast);
+  box-shadow: none;
+}
+
+.edit-button:hover {
+  background: var(--lavender-twilight);
+  border-color: var(--lavender-twilight);
+  transform: translateY(-2px);
+}
+
+.delete-button:hover {
+  background: var(--warm-terracotta);
+  border-color: var(--warm-terracotta);
+  transform: translateY(-2px);
+}
+
+/* Entry Content */
+.entry-content {
+  color: var(--text-primary);
+  line-height: 1.7;
+}
+
+.entry-content p {
+  margin-bottom: 0;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* Edit Form */
+.entry-edit-form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+}
+
+.edit-textarea {
+  width: 100%;
+  padding: var(--spacing-md);
+  border: 2px solid var(--dusty-rose);
+  border-radius: var(--radius-md);
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  line-height: 1.6;
+  resize: vertical;
+  min-height: 150px;
+  transition: border-color var(--transition-fast);
+}
+
+.edit-textarea:focus {
+  outline: none;
+  border-color: var(--dusty-rose);
+  box-shadow: 0 0 0 3px rgba(232, 180, 184, 0.2);
+}
+
+/* Edit Actions */
+.edit-actions {
+  display: flex;
+  gap: var(--spacing-md);
+}
+
+.save-edit-button,
+.cancel-edit-button {
+  padding: var(--spacing-sm) var(--spacing-lg);
+  font-size: 0.95rem;
+  font-weight: 600;
+  border: none;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: all var(--transition-base);
+  box-shadow: var(--shadow-sm);
+}
+
+.save-edit-button {
+  background: var(--sage-green);
+  color: var(--night-sky);
+  flex: 1;
+}
+
+.save-edit-button:hover:not(:disabled) {
+  background: #B8C9A4;
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+.save-edit-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.cancel-edit-button {
+  background: var(--text-muted);
+  color: white;
+  flex: 1;
+}
+
+.cancel-edit-button:hover {
+  background: var(--night-sky);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+/* Delete Confirmation */
+.delete-confirm {
+  margin-top: var(--spacing-md);
+  padding: var(--spacing-md);
+  background: rgba(232, 180, 160, 0.1);
+  border: 2px solid var(--warm-terracotta);
+  border-radius: var(--radius-md);
+}
+
+.delete-confirm-message {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  margin-bottom: var(--spacing-md);
+}
+
+.delete-confirm-actions {
+  display: flex;
+  gap: var(--spacing-md);
+}
+
+.confirm-delete-button,
+.cancel-delete-button {
+  padding: var(--spacing-sm) var(--spacing-lg);
+  font-size: 0.95rem;
+  font-weight: 600;
+  border: none;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: all var(--transition-base);
+  box-shadow: var(--shadow-sm);
+  flex: 1;
+}
+
+.confirm-delete-button {
+  background: var(--warm-terracotta);
+  color: white;
+}
+
+.confirm-delete-button:hover {
+  background: #D6A090;
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+.cancel-delete-button {
+  background: var(--text-muted);
+  color: white;
+}
+
+.cancel-delete-button:hover {
+  background: var(--night-sky);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .journal-entry {
+    padding: var(--spacing-md);
+  }
+
+  .entry-header {
+    flex-direction: column;
+    gap: var(--spacing-sm);
+  }
+
+  .entry-actions {
+    width: 100%;
+    justify-content: flex-end;
+  }
+
+  .edit-button,
+  .delete-button {
+    width: 44px;
+    height: 44px;
+    font-size: 1.25rem;
+  }
+
+  .edit-textarea {
+    min-height: 120px;
+    font-size: 16px; /* Prevents zoom on iOS */
+  }
+
+  .edit-actions,
+  .delete-confirm-actions {
+    flex-direction: column;
+  }
+
+  .save-edit-button,
+  .cancel-edit-button,
+  .confirm-delete-button,
+  .cancel-delete-button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .entry-mood {
+    font-size: 1.25rem;
+  }
+}

@@ -1,0 +1,205 @@
+.constellations-page {
+  padding: var(--spacing-xl) 0;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-left: var(--spacing-lg);
+  padding-right: var(--spacing-lg);
+}
+
+/* Page Header */
+.page-header {
+  margin-bottom: var(--spacing-2xl);
+  text-align: center;
+}
+
+.page-header h1 {
+  font-size: 2.5rem;
+  color: var(--night-sky);
+  margin-bottom: var(--spacing-lg);
+  font-family: var(--font-display);
+}
+
+.intro-section {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.intro-text {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--text-secondary);
+  margin-bottom: var(--spacing-xl);
+  text-align: center;
+}
+
+/* Stargazing Tips Box */
+.stargazing-tips {
+  background: linear-gradient(135deg, var(--lavender-twilight) 0%, var(--sand-beige) 100%);
+  padding: var(--spacing-lg);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  border: 2px solid var(--border-color);
+}
+
+.stargazing-tips h3 {
+  color: var(--night-sky);
+  margin-bottom: var(--spacing-md);
+  font-size: 1.35rem;
+  font-family: var(--font-display);
+}
+
+.stargazing-tips ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.stargazing-tips li {
+  padding: var(--spacing-sm) 0;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  position: relative;
+  padding-left: var(--spacing-lg);
+}
+
+.stargazing-tips li::before {
+  content: '⭐';
+  position: absolute;
+  left: 0;
+  top: var(--spacing-sm);
+}
+
+.stargazing-tips strong {
+  color: var(--night-sky);
+}
+
+/* Constellations Grid */
+.constellations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: var(--spacing-xl);
+  margin-bottom: var(--spacing-2xl);
+}
+
+/* Page Footer */
+.page-footer {
+  text-align: center;
+  padding: var(--spacing-xl) 0;
+  border-top: 2px solid var(--border-color);
+}
+
+.footer-note {
+  font-size: 1rem;
+  color: var(--text-muted);
+  font-style: italic;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Loading & Error States */
+.loading,
+.error {
+  text-align: center;
+  padding: var(--spacing-2xl);
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.loading {
+  font-size: 1.25rem;
+  color: var(--text-secondary);
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.error {
+  color: var(--warm-terracotta);
+}
+
+.error p {
+  margin-bottom: var(--spacing-sm);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .constellations-grid {
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: var(--spacing-lg);
+  }
+}
+
+@media (max-width: 768px) {
+  .constellations-page {
+    padding: var(--spacing-lg) var(--spacing-md);
+  }
+
+  .page-header h1 {
+    font-size: 2rem;
+  }
+
+  .intro-text {
+    font-size: 1rem;
+  }
+
+  .stargazing-tips {
+    padding: var(--spacing-md);
+  }
+
+  .stargazing-tips h3 {
+    font-size: 1.2rem;
+  }
+
+  .stargazing-tips li {
+    font-size: 0.95rem;
+    padding-left: var(--spacing-md);
+  }
+
+  .constellations-grid {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-md);
+  }
+}
+
+@media (max-width: 480px) {
+  .constellations-page {
+    padding: var(--spacing-md);
+  }
+
+  .page-header h1 {
+    font-size: 1.75rem;
+  }
+
+  .intro-text {
+    font-size: 0.95rem;
+  }
+
+  .stargazing-tips {
+    padding: var(--spacing-sm);
+  }
+
+  .stargazing-tips h3 {
+    font-size: 1.1rem;
+  }
+
+  .stargazing-tips li {
+    font-size: 0.9rem;
+    padding: var(--spacing-xs) 0;
+  }
+
+  .footer-note {
+    font-size: 0.9rem;
+  }
+}
