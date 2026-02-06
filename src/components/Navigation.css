@@ -61,6 +61,8 @@
 
 .nav-label {
   font-size: 0.95rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 /* Mobile Menu Toggle Button */
@@ -70,7 +72,7 @@
   border: none;
   padding: var(--spacing-sm);
   cursor: pointer;
-  z-index: 1001;
+  z-index: 101;
   box-shadow: none;
   background-color: transparent;
 }
@@ -102,6 +104,7 @@
   background-color: var(--text-primary);
   transition: all var(--transition-base);
   border-radius: 2px;
+  will-change: transform, opacity;
 }
 
 .hamburger.open span:nth-child(1) {
@@ -141,7 +144,7 @@
     box-shadow: var(--shadow-lg);
     transform: translateX(100%);
     transition: transform var(--transition-base);
-    z-index: 1000;
+    z-index: 99;
     overflow-y: auto;
     align-items: stretch;
   }
@@ -178,7 +181,7 @@
     right: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.5);
-    z-index: 999;
+    z-index: 98;
     animation: fadeIn var(--transition-base);
   }
 

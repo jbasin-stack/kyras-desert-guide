@@ -6,21 +6,48 @@
 
 /* Header Section */
 .journal-header {
+  position: relative;
   text-align: center;
   margin-bottom: var(--spacing-2xl);
-  padding: var(--spacing-lg);
+  padding: var(--spacing-xl);
   background: linear-gradient(135deg, var(--lavender-twilight), var(--dusty-rose));
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-md);
+  overflow: hidden;
+}
+
+/* Decorative elements */
+.journal-header::before {
+  content: '📔';
+  position: absolute;
+  top: 20%;
+  left: 8%;
+  font-size: 2.5rem;
+  opacity: 0.2;
+  pointer-events: none;
+}
+
+.journal-header::after {
+  content: '✍️';
+  position: absolute;
+  bottom: 20%;
+  right: 8%;
+  font-size: 2.5rem;
+  opacity: 0.2;
+  pointer-events: none;
 }
 
 .journal-header h1 {
+  position: relative;
+  z-index: 2;
   color: white;
   margin-bottom: var(--spacing-sm);
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .journal-subtitle {
+  position: relative;
+  z-index: 2;
   color: rgba(255, 255, 255, 0.95);
   font-size: 1.125rem;
   margin-bottom: 0;
@@ -216,22 +243,53 @@
 
 /* Empty State */
 .empty-state {
+  position: relative;
   text-align: center;
   padding: var(--spacing-2xl);
-  background: var(--sand-beige);
+  background: linear-gradient(135deg, var(--sand-beige) 0%, var(--lavender-twilight) 100%);
   border-radius: var(--radius-lg);
   border: 2px dashed var(--border-color);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+}
+
+/* Decorative background pattern */
+.empty-state::before {
+  content: '📝✨🌙⭐📖';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5rem;
+  opacity: 0.1;
+  letter-spacing: 2rem;
+  white-space: nowrap;
 }
 
 .empty-state-icon {
+  position: relative;
+  z-index: 2;
   font-size: 4rem;
   margin-bottom: var(--spacing-md);
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
 }
 
 .empty-state-text {
+  position: relative;
+  z-index: 2;
   color: var(--text-secondary);
   font-size: 1.125rem;
   margin-bottom: 0;
+  font-weight: 500;
 }
 
 /* Entries List */

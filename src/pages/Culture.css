@@ -6,15 +6,40 @@
 
 /* Header Section */
 .culture-header {
+  position: relative;
   text-align: center;
   margin-bottom: var(--spacing-2xl);
   padding: var(--spacing-xl);
   background: linear-gradient(135deg, var(--sand-beige) 0%, var(--lavender-twilight) 100%);
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-md);
+  overflow: hidden;
+}
+
+/* Decorative elements */
+.culture-header::before {
+  content: '🕌';
+  position: absolute;
+  top: 15%;
+  left: 8%;
+  font-size: 2.5rem;
+  opacity: 0.2;
+  pointer-events: none;
+}
+
+.culture-header::after {
+  content: '🏜️';
+  position: absolute;
+  bottom: 15%;
+  right: 8%;
+  font-size: 2.5rem;
+  opacity: 0.2;
+  pointer-events: none;
 }
 
 .culture-title {
+  position: relative;
+  z-index: 2;
   font-size: 2.75rem;
   color: var(--text-primary);
   margin-bottom: var(--spacing-md);
@@ -23,6 +48,8 @@
 }
 
 .culture-intro {
+  position: relative;
+  z-index: 2;
   font-size: 1.15rem;
   line-height: 1.8;
   color: var(--text-secondary);
@@ -74,10 +101,24 @@
   color: white;
   border-color: transparent;
   box-shadow: var(--shadow-md);
+  animation: pulse-in 0.3s ease-out;
+  will-change: transform;
+}
+
+@keyframes pulse-in {
+  0% {
+    transform: scale(0.95);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 .category-button.active:hover {
-  transform: translateY(-2px);
+  transform: translateY(-2px) scale(1.02);
   box-shadow: var(--shadow-lg);
 }
 
@@ -162,17 +203,6 @@
 }
 
 /* Animation for fact cards appearing */
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
 .facts-grid > * {
   animation: fadeInUp 0.5s ease-out backwards;
 }

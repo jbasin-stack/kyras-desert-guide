@@ -30,6 +30,7 @@
 
 .card-title-section {
   flex: 1;
+  min-width: 0;
 }
 
 .constellation-name {
@@ -37,6 +38,8 @@
   margin-bottom: var(--spacing-xs);
   color: var(--night-sky);
   font-family: var(--font-display);
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 .constellation-arabic {
@@ -179,6 +182,8 @@
   font-size: 1.05rem;
   display: block;
   margin-bottom: var(--spacing-xs);
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 .star-item p {

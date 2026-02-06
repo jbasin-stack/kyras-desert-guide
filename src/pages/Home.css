@@ -33,6 +33,7 @@
   color: var(--night-sky);
   text-shadow: 0 2px 4px rgba(255, 255, 255, 0.5);
   animation: fadeInDown 0.8s ease-out;
+  will-change: transform, opacity;
 }
 
 .hero-subtitle {
@@ -41,6 +42,7 @@
   margin-bottom: var(--spacing-xl);
   font-weight: 400;
   animation: fadeInUp 0.8s ease-out 0.2s backwards;
+  will-change: transform, opacity;
 }
 
 .current-date {
@@ -54,6 +56,7 @@
   font-weight: 500;
   color: var(--text-primary);
   animation: fadeInUp 0.8s ease-out 0.4s backwards;
+  will-change: transform, opacity;
 }
 
 .date-icon {
@@ -71,12 +74,24 @@
   height: 120px;
   background: rgba(245, 230, 211, 0.6);
   border-radius: 50% 50% 0 0;
+  animation: sway 8s ease-in-out infinite;
+  will-change: transform;
+}
+
+@keyframes sway {
+  0%, 100% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(10px);
+  }
 }
 
 .dune-1 {
   left: -50px;
   width: 300px;
   opacity: 0.7;
+  animation-delay: 0s;
 }
 
 .dune-2 {
@@ -84,12 +99,14 @@
   width: 400px;
   height: 100px;
   opacity: 0.5;
+  animation-delay: 1s;
 }
 
 .dune-3 {
   right: -50px;
   width: 350px;
   opacity: 0.6;
+  animation-delay: 2s;
 }
 
 /* Star Accents */
@@ -208,6 +225,8 @@
   color: var(--night-sky);
   margin-bottom: var(--spacing-sm);
   font-weight: 600;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 .card-description {
@@ -257,6 +276,8 @@
   line-height: 1.6;
   margin-bottom: var(--spacing-md);
   font-weight: 500;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 .proverb-attribution {
@@ -269,28 +290,6 @@
 /* ============================================
    ANIMATIONS
 ============================================ */
-@keyframes fadeInDown {
-  from {
-    opacity: 0;
-    transform: translateY(-30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
 @keyframes twinkle {
   0%, 100% {
     opacity: 0.3;

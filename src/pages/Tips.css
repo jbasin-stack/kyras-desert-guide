@@ -5,21 +5,48 @@
 }
 
 .tips-header {
+  position: relative;
   text-align: center;
   margin-bottom: var(--spacing-2xl);
   padding: var(--spacing-xl);
   background: linear-gradient(135deg, var(--sage-green), var(--warm-terracotta));
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-md);
+  overflow: hidden;
+}
+
+/* Decorative elements */
+.tips-header::before {
+  content: '🧳';
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  font-size: 2rem;
+  opacity: 0.25;
+  pointer-events: none;
+}
+
+.tips-header::after {
+  content: '🗺️';
+  position: absolute;
+  bottom: 20%;
+  right: 10%;
+  font-size: 2rem;
+  opacity: 0.25;
+  pointer-events: none;
 }
 
 .tips-header h1 {
+  position: relative;
+  z-index: 2;
   color: white;
   margin-bottom: var(--spacing-sm);
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .tips-intro {
+  position: relative;
+  z-index: 2;
   color: rgba(255, 255, 255, 0.95);
   font-size: 1.125rem;
   max-width: 700px;
@@ -54,17 +81,46 @@
 }
 
 .tips-footer {
+  position: relative;
   text-align: center;
   padding: var(--spacing-xl);
-  background: var(--sand-beige);
+  background: linear-gradient(135deg, var(--sand-beige) 0%, var(--sage-green) 50%, var(--lavender-twilight) 100%);
   border-radius: var(--radius-lg);
   margin-top: var(--spacing-2xl);
+  box-shadow: var(--shadow-md);
+  overflow: hidden;
+}
+
+/* Decorative footer camel */
+.tips-footer::before {
+  content: '🐪';
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  opacity: 0.2;
+  pointer-events: none;
+}
+
+.tips-footer::after {
+  content: '🌵';
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  opacity: 0.2;
+  pointer-events: none;
 }
 
 .tips-footer p {
+  position: relative;
+  z-index: 2;
   color: var(--text-secondary);
   font-size: 1.125rem;
   margin-bottom: 0;
+  font-weight: 500;
 }
 
 @media (max-width: 768px) {

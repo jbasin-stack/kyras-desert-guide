@@ -25,12 +25,16 @@
 }
 
 .fact-card:hover {
-  transform: translateY(-4px);
+  transform: translateY(-4px) scale(1.01);
   box-shadow: var(--shadow-lg);
 }
 
 .fact-card:hover::before {
   opacity: 0.08;
+}
+
+.fact-card:active {
+  transform: translateY(-2px) scale(1.005);
 }
 
 .fact-card-icon {
@@ -46,19 +50,11 @@
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: var(--category-color);
+  color: white;
   background-color: var(--category-color);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  filter: brightness(0.7);
   margin-bottom: var(--spacing-sm);
   padding: var(--spacing-xs) var(--spacing-sm);
   border-radius: var(--radius-sm);
-  background-color: var(--category-color);
-  background-clip: padding-box;
-  -webkit-background-clip: padding-box;
-  -webkit-text-fill-color: white;
   opacity: 0.9;
 }
 
@@ -69,6 +65,8 @@
   color: var(--text-primary);
   margin-bottom: var(--spacing-md);
   line-height: 1.3;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 .fact-card-content {
@@ -77,6 +75,8 @@
   color: var(--text-secondary);
   flex-grow: 1;
   margin-bottom: 0;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 /* Responsive adjustments */

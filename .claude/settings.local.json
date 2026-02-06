@@ -20,7 +20,8 @@
       "Bash(gh:*)",
       "Bash(vercel:*)",
       "Bash(git push:*)",
-      "WebFetch(domain:kyras-desert-guide.vercel.app)"
+      "WebFetch(domain:kyras-desert-guide.vercel.app)",
+      "Bash(curl:*)"
     ]
   }
 }
