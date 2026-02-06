@@ -16,7 +16,10 @@
       "Bash(taskkill:*)",
       "Bash(findstr:*)",
       "Bash(ls:*)",
-      "Bash(where:*)"
+      "Bash(where:*)",
+      "Bash(gh:*)",
+      "Bash(vercel:*)",
+      "Bash(git push:*)"
     ]
   }
 }
